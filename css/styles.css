@@ -1,3 +1,8 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
 .header {
   background-color: #fff;
 }
@@ -6,7 +11,6 @@
  }
 
 .sitenav-link {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -15,6 +19,8 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+  font-family: "Roboto", "Arial", sans-serif;
+
 
 }
 
@@ -24,7 +30,7 @@
   background-color: #ff7500;
   color: #fff;
   text-decoration: none;
-
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 .hero {
@@ -52,9 +58,8 @@
 
   font-size: 40px;
   line-height: 120%;
-
   letter-spacing: 0.5px;
-
+  font-family: 'Roboto Condensed', sans-serif;
   color: #fff;
 }
 
@@ -69,12 +74,14 @@
   font-size: 72px;
   line-height: 1.2;
   letter-spacing: 0.5px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .feature-heading-text {
   font-size: 24px;
   line-height: 1.2;
   letter-spacing: 0.5px;
+  font-family: 'Roboto Condensed', sans-serif;
 
 }
 
@@ -93,6 +100,7 @@
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0.5px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .promo-content {
