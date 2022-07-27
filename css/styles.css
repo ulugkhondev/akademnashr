@@ -16,6 +16,18 @@ body {
   align-items: center;
 }
 
+.logo-link {
+  transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link:active {
+  opacity: 0.6;
+}
+
  .sitenav-list {
   list-style: none;
   display: flex;
@@ -31,8 +43,15 @@ body {
   text-decoration: none;
   color: #000000;
   font-family: "Roboto", "Arial", sans-serif;
+  transition: color 0.4s ease;
+  }
 
+.sitenav-link:hover {
+  color: #ff7500;
+}
 
+.sitenav-link:active {
+  opacity: 0.6;
 }
 
 .main-link {
@@ -42,6 +61,14 @@ body {
   color: #fff;
   text-decoration: none;
   font-family: "Roboto", "Arial", sans-serif;
+  transition: opacity 0.4s ease;
+}
+
+.main-link:hover {
+  opacity: 0.8;
+}
+.main-link:hover {
+  opacity: 0.6;
 }
 
 .hero {
@@ -163,9 +190,24 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.site-footer-logo {
+.site-footer-socials {
   display: flex;
+  align-items: center;
 }
+.site-footer-socials a {
+  color: #252420;
+}
+
+.site-footer-socials a:hover {
+  color: #ff7500;
+}
+
+.site-footer-socials a:active {
+  opacity: 0.6;
+}
+
+
+
 .site-footer-list {
   display: flex;
 
@@ -178,4 +220,12 @@ body {
   line-height: 19px;
   text-decoration: none;
   color: #252420
+}
+
+.site-footer-links a:hover {
+  color: #ff7500;
+}
+
+.site-footer-links a:focus {
+  opacity: 0.6;
 }
