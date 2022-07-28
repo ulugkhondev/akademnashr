@@ -6,8 +6,11 @@ body {
 .header {
   background-color: #fff;
   display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
   justify-content: space-between;
   align-items: center;
+  border-top: 5px solid #ff7500;
 
 }
 
@@ -29,13 +32,14 @@ body {
 }
 
  .sitenav-list {
+  padding: 0;
   list-style: none;
   display: flex;
  }
 
 .sitenav-link {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 13px;
   line-height: 15px;
   letter-spacing: 1px;
@@ -55,7 +59,12 @@ body {
 }
 
 .main-link {
+  display: inline-block;
+  /* tepa o'ng past chap  */
+  padding: 12px 24px;
+  border-radius: 4px;
   font-size: 13px;
+  font-weight: bold;
   line-height: 15px;
   background-color: #ff7500;
   color: #fff;
@@ -74,6 +83,8 @@ body {
 .hero {
   background-color: #252420;
   color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -86,6 +97,7 @@ body {
 .orange-line {
   width: 80px;
   height: 3px;
+  border: none;
   background-color: #ff7500;
 }
 
@@ -93,6 +105,7 @@ body {
 .hero-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
 .hero-heading {
@@ -108,6 +121,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.5px;
+}
+
+.feature {
+  padding-top: 210px;
+  padding-bottom: 210px;
 }
 
 .feature-heading {
@@ -127,6 +145,7 @@ body {
 }
 
 .features-list {
+  padding: 0;
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -142,6 +161,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 12px;
   background-color: #252420;
   color: #fff
 
@@ -170,15 +190,19 @@ body {
 .promo-img {
   width: 440px;
   height: 440px;
+  border-radius: 12px;
   object-fit: cover;
 }
 
 .site-footer ul {
+  padding: 0;
   list-style: none;
 }
 
 
 .site-footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
   background-color: #f8f8f8;
 }
 .site-footer-links {
@@ -191,6 +215,7 @@ body {
   justify-content: space-between;
 }
 .site-footer-socials {
+  padding: 0;
   display: flex;
   align-items: center;
 }
